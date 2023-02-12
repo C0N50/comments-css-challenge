@@ -183,12 +183,13 @@ padding-right: 5px;
     grid-column: 2/6;
     padding-top: 10px;
     grid-row: 1/3;
+    padding-right: 15px;
 }
 
 textarea::placeholder {
     color:hsl(211, 10%, 45%);
     font-family: 'Rubik', sans-serif;
-    padding-left: 0gitpx;
+    padding-left: 0px;
     padding-top: 2px;
     font-weight: 400;
 }
@@ -216,6 +217,7 @@ textarea {
     height:auto;
     width: 50px;
     grid-row: 1/3;
+    font-family: 'Rubik', sans-serif;
 }
 
 button {
@@ -231,6 +233,8 @@ button {
     padding-right: 20px;
     cursor: pointer;
     transition-duration: 0.4s;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
 
 button:hover {
