@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
 
   <title>CSS Challenge | Interactive comments section</title>
 
@@ -23,33 +25,38 @@
 <body>
 
   <!-- Comment #1 -->
-  12
-  <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-  amyrobson 
-  1 month ago
-  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
-
+  <div class="grid-container">
+  <div class="votes">12</div>
+  <div class="profile-pic"><img src="./images/avatars/image-amyrobson.png" alt="profile" /></div>
+  <div class="username">amyrobson</div>
+  <div class="timestamp">  1 month ago</div> 
+  <div class="comment">  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</div>
+</div>
   <!-- Comment #2 -->
-  5
-  <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-  maxblagun 
-  2 weeks ago
-  Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
-
+  <div class="grid-container">
+  <div class="votes">5</div>
+  <div class="profile-pic"><img src="./images/avatars/image-maxblagun.png" alt="profile" /></div>
+  <div class="username">maxblagun</div>
+  <div class="timestamp">2 weeks ago</div>
+  <div class="comment"> Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</div>
+  </div>
   <!-- Comment #3 (Reply to comment #2) -->
-  4
-  <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-  ramsesmiron 
-  1 week ago
-  @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
+  <div class="grid-container">
+    <div class="votes">4</div>
+    <div class="profile-pic"><img src="./images/avatars/image-ramsesmiron.png" alt="profile" /></div>
+    <div class="username">ramsesmiron</div>
+    <div class="timestamp">1 week ago</div>
+    <div class="comment">@maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</div>
+  </div>
 
   <!-- Comment #4 (Reply to comment #2) -->
-  2
-  <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-  juliusomo 
-  2 days ago
-  @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
-
+  <div class="grid-container">
+  <div class="votes">2</div>
+  <div class="profile-pic"><img src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
+  <div class="username">juliusomo</div> 
+  <div class="timestamp">2 days ago</div>
+  <div class="comment">@ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</div>
+</div>
 
   
   <div class="attribution">

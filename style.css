@@ -1,0 +1,38 @@
+* {
+    border: 1px solid black;
+}
+
+img {
+    height: auto;
+    width: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: .1fr .1fr 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    margin
+  }
+
+
+  .votes {
+    grid-column: 0/1;
+  }
+
+  .profile-pic {
+    grid-column: 0/1;
+  }
+
+  .name {
+    grid-column: 0/1;
+  }
+
+  .timestamp {
+    grid-column: 0/1;
+  }
+
+  .comment {
+    grid-column: 2/5;
+  }
