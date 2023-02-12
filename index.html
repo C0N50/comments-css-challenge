@@ -26,37 +26,97 @@
 
   <!-- Comment #1 -->
   <div class="grid-container">
-  <div class="votes">12</div>
-  <div class="profile-pic"><img src="./images/avatars/image-amyrobson.png" alt="profile" /></div>
+  
+    <div class="votes">
+      <div class = "vote-background">
+      <div>
+        <img class="plus-image" src="./images/icon-plus.svg" alt="plus" />
+     </div>
+      <div>12</div>
+      <div>
+        <img class="minus-image" src="./images/icon-minus.svg" alt="minus" />
+      </div>
+      </div>
+    </div>
+  
+  <div class="profile-pic"><img class="profile-image" src="./images/avatars/image-amyrobson.png" alt="profile" /></div>
   <div class="username">amyrobson</div>
   <div class="timestamp">  1 month ago</div> 
+  <div class="reply"><img alt="reply" class="reply-icon" src="./images/icon-reply.svg"> Reply</div>
   <div class="comment">  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</div>
-</div>
+    </div>
+
   <!-- Comment #2 -->
   <div class="grid-container">
-  <div class="votes">5</div>
-  <div class="profile-pic"><img src="./images/avatars/image-maxblagun.png" alt="profile" /></div>
+
+    <div class="votes">
+      <div class = "vote-background">
+      <div>
+        <img class="plus-image" src="./images/icon-plus.svg" alt="plus" />
+     </div>
+      <div>5</div>
+      <div>
+        <img class="minus-image" src="./images/icon-minus.svg" alt="minus" />
+      </div>
+      </div>  
+     </div>
+
+  <div class="profile-pic"><img class="profile-image" src="./images/avatars/image-maxblagun.png" alt="profile" /></div>
   <div class="username">maxblagun</div>
   <div class="timestamp">2 weeks ago</div>
+  <div class="reply"><img alt="reply" class="reply-icon" src="./images/icon-reply.svg"> Reply</div>
   <div class="comment"> Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</div>
   </div>
   <!-- Comment #3 (Reply to comment #2) -->
-  <div class="grid-container">
-    <div class="votes">4</div>
-    <div class="profile-pic"><img src="./images/avatars/image-ramsesmiron.png" alt="profile" /></div>
+  <div class="grid-reply">
+
+    <div class="votes">
+      <div class = "vote-background">
+      <div>
+        <img class="plus-image" src="./images/icon-plus.svg" alt="plus" />
+     </div>
+      <div>4</div>
+      <div>
+        <img class="minus-image" src="./images/icon-minus.svg" alt="minus" />
+      </div>
+      </div>
+     </div>
+
+    <div class="profile-pic"><img class="profile-image" src="./images/avatars/image-ramsesmiron.png" alt="profile" /></div>
     <div class="username">ramsesmiron</div>
     <div class="timestamp">1 week ago</div>
+    <div class="reply"><img alt="reply" class="reply-icon" src="./images/icon-reply.svg"> Reply</div>
     <div class="comment">@maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</div>
   </div>
 
   <!-- Comment #4 (Reply to comment #2) -->
-  <div class="grid-container">
-  <div class="votes">2</div>
-  <div class="profile-pic"><img src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
+  <div class="grid-reply">
+
+    <div class="votes">
+      <div class = "vote-background">
+      <div>
+        <img class="plus-image" src="./images/icon-plus.svg" alt="plus" />
+     </div>
+      <div>2</div>
+      <div>
+        <img class="minus-image" src="./images/icon-minus.svg" alt="minus" />
+      </div>
+      </div>
+     </div>
+
+  <div class="profile-pic"><img class="profile-image" src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
   <div class="username">juliusomo</div> 
   <div class="timestamp">2 days ago</div>
+  <div class="reply"><span class="delete"><img src="./images/icon-delete.svg"></img>Delete</span> <img alt="reply" class="reply-icon" src="./images/icon-edit.svg"> Edit</div>
   <div class="comment">@ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</div>
 </div>
+
+<div class="grid-container">
+  <div class="user-profile-pic"><img class="profile-image" src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
+  <div class="text-box"><textarea class="add-comment" rows="4" type="text" placeholder="Add a comment..."></textarea></div>
+  <div class="send-button"><button>SEND</button></div>
+  </div>
+
 
   
   <div class="attribution">
